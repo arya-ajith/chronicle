@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chronicle</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/notes.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,98.3,200..1000;1,6..12,98.3,200..1000&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>chronicle</h2>
+    </header>
+
+    <section class="content">
+      <div class="sidebar">
+        <a href="home.html">Home</a>
+        <a href="notes.html" style="font-weight: bold">Notes</a>
+        <a href="journal.html">Journal</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="lists.html">Lists</a>
+      </div>
+
+      <div class="main">
+        <section class="greeting">
+          <p style="font-size: 18px; color: #666">Monday, October 28</p>
+          <h1>Good Morning, Arya!</h1>
+          <p style="font-style: italic; color: #666">
+            "The only way to do great work is to love what you do."
+          </p>
+        </section>
+
+        <section class="grid-container-1">
+          <div id="notes" class="stat-card" style="grid-area: box1">Notes</div>
+          <div id="journal" class="stat-card" style="grid-area: box2">
+            Journal
+          </div>
+          <div id="tasks" class="stat-card" style="grid-area: box3">Tasks</div>
+          <div id="lists" class="stat-card" style="grid-area: box4">Lists</div>
+        </section>
+        <section class="grid-container-2">
+          <div id="task-card" class="task-card" style="grid-area: box5">
+            item 5
+          </div>
+          <div id="note-card" class="notes-card" style="grid-area: box6">
+            item 6
+          </div>
+          <div id="journal-card" class="journal-card" style="grid-area: box7">
+            item 7
+          </div>
+        </section>
+      </div>
+    </section>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

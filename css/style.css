@@ -46,7 +46,3 @@ a {
   color: black;
   font-family: "Nunito Sans", sans-serif;
 }
-
-a:active {
-  font-weight: bold;
-}
