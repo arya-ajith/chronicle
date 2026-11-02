@@ -6,19 +6,24 @@
     <title>Chronicle</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/home.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,98.3,200..1000;1,6..12,98.3,200..1000&display=swap");
+    </style>
   </head>
   <body>
     <header>
       <h2>chronicle</h2>
     </header>
+
     <section class="content">
       <div class="sidebar">
-        <a href="index.html" style="font-weight: bold">Home</a>
+        <a href="home.html" style="font-weight: bold">Home</a>
         <a href="notes.html">Notes</a>
         <a href="journal.html">Journal</a>
         <a href="tasks.html">Tasks</a>
         <a href="lists.html">Lists</a>
       </div>
+
       <div class="main">
         <section class="greeting">
           <p style="font-size: 18px; color: #666">Monday, October 28</p>
@@ -27,21 +32,25 @@
             "The only way to do great work is to love what you do."
           </p>
         </section>
-        <section id="notes" class="stat-card">
-          <h3>Notes</h3>
-          <p>12</p>
+
+        <section class="grid-container-1">
+          <div id="notes" class="stat-card" style="grid-area: box1">Notes</div>
+          <div id="journal" class="stat-card" style="grid-area: box2">
+            Journal
+          </div>
+          <div id="tasks" class="stat-card" style="grid-area: box3">Tasks</div>
+          <div id="lists" class="stat-card" style="grid-area: box4">Lists</div>
         </section>
-        <section id="journal" class="stat-card">
-          <h3>Journal</h3>
-          <p>5</p>
-        </section>
-        <section id="tasks" class="stat-card">
-          <h3>Tasks</h3>
-          <p>8</p>
-        </section>
-        <section id="lists" class="stat-card">
-          <h3>Lists</h3>
-          <p>3</p>
+        <section class="grid-container-2">
+          <div id="task-card" class="task-card" style="grid-area: box5">
+            item 5
+          </div>
+          <div id="note-card" class="notes-card" style="grid-area: box6">
+            item 6
+          </div>
+          <div id="journal-card" class="journal-card" style="grid-area: box7">
+            item 7
+          </div>
         </section>
       </div>
     </section>

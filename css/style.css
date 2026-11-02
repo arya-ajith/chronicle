@@ -5,6 +5,7 @@ body {
 
 header {
   border-bottom: 1px solid #776648;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 header h2 {
@@ -43,6 +44,7 @@ a {
   font-size: 16px;
   text-decoration: none;
   color: black;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 a:active {
