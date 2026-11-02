@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(246, 246, 242);
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px solid #776648;
+}
+
+header h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+.main {
+  flex: 1;
+  height: 100vh;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+a {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  font-weight: bold;
+}
